@@ -1,0 +1,27 @@
+<%-include("partials/header")-%>
+<div class="contactparent">
+    <div class="contactchild1">
+     <div class="contactlinks">
+        <h2  class="icons"><a href="  https://www.instagram.com/palakjaiswal1041/"><i class="fa-brands fa-instagram"></i></a></h2>
+        <h2 class="icons"> <a href="https://www.linkedin.com/in/palak-jaiswal-121557254/"><i class="fa-brands fa-linkedin-in"></i></a></h2>
+        <h2 class="icons"> <a href="https://twitter.com/palakja81325436"><i class="fa-brands fa-twitter"></i></a></h2>
+        <h2 class="icons"><a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></h2>
+        <h2 class="icons"><a href="mailto:palakjaiswalch28@gmail.com"><i class="fa-solid fa-envelope"></i></a></h2>
+      
+     </div>
+    </div>
+    <div class="contactchild2">
+        <div class="contactinfo">
+       <form  action="/submit" method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="text" name="subject" placeholder="subject" required> 
+        <textarea type="text" name="message" placeholder="write your message here..." rows="5"></textarea>
+        <textarea type="text" name="suggestion"  placeholder="Suggestions" rows="5" required></textarea> 
+        <p class="status"></p> 
+        
+        <button class="btn btn-block danger" type="submit" action="/submit" >SEND</button>
+       </form> 
+    </div>
+    </div>
+</div>
+<%-include("partials/footer")-%>
